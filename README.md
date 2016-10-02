@@ -7,3 +7,5 @@ The  key differences between my app and the tutorial  are
 (ii) The  default sample images are my own
 
 Build Instructions:
+(i) Open FoodTracker.xcodeproj
+(ii) Run Simulation
