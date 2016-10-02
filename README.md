@@ -9,3 +9,7 @@ The  key differences between my app and the tutorial  are
 Build Instructions:
 (i) Open FoodTracker.xcodeproj
 (ii) Run Simulation
+
+Trello:
+Link:  https://trello.com/b/yOd2dTPB/ec-601-hw2-ios-app
+* Two  Trello Images have also been added to repository
