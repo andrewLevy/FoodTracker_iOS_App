@@ -6,6 +6,14 @@
 //  Copyright © 2016 Andrew Levy. All rights reserved.
 //
 
+/*
+ The below MealViewController class serves as the view controller for the individual meal scene - the second scene of the 
+ FoodTracker app.  The MealViewController class serves as the intermediary between the "Meal" data model (in Meal.swift)
+ and the inidividual meal scene in the storyboard.  As a result, the MealViewController is responsible for storing meal data
+ when the user is adding or editing a meal.  The MealViewController must also be aware of when the user types in the text
+ field or is trying to upload a photo.
+*/
+
 import UIKit
 
 class MealViewController: UIViewController, UITextFieldDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate {

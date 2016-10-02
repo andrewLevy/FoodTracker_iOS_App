@@ -6,6 +6,16 @@
 //  Copyright © 2016 Apple Inc. All rights reserved.
 //
 
+/* 
+The below MealTableViewController class serves as the view controller for the main meal listing
+screen on the FoodTracker app.  The MealTableViewController serves as the intermediary between the 
+data model class (from Meal.swift) and table view scene on the story board.  As a result, the MealTableView
+Controller class is responsible for loading the page with the appropriate meals as directed by the data model and well 
+as responding to user UI interactions on the storyboard such as editing and deleting meals.  The MealTableViewController 
+also plays an important navigation role in the app.  The class must be aware of when the user is either adding or editing 
+meal in the MealViewController.
+*/
+
 import UIKit
 
 class MealTableViewController: UITableViewController {

@@ -6,6 +6,12 @@
 //  Copyright © 2016 Apple Inc. All rights reserved.
 //
 
+/*
+ The Meal class serves as the data model for the FoodTracker app.  The class stores 3 key items for every meal instance:
+ (i) Meal Name, (ii) Meal Photo, and (iii) Meal Rating.  The meal class stores each added meal into a structure so added 
+ meals can be properly saved to enable persistent data.
+*/
+
 import UIKit
 
 class Meal: NSObject, NSCoding {

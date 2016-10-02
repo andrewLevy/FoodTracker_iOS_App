@@ -6,6 +6,12 @@
 //  Copyright © 2016 Apple Inc. All rights reserved.
 //
 
+/*
+ The RatingControl class is resonsible for implementing the star ratings in the FoodTracker app.  The class is responsible 
+ for load the five unfillled stars in the individual meal scene in the storyboard as well as remembering the number of 
+ stars that were selected the meal.
+*/
+
 import UIKit
 
 class RatingControl: UIView {
